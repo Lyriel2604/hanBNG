@@ -1,0 +1,15 @@
+/* CSS Document */
+*{box-sizing:border-box}
+.container{width: 80%; margin: 0 auto}
+.img-100{width: 100%; height: auto}
+main{width: 100%; min-height: 1000px}
+.w-25{width: 25%; padding: 15px; float: left}
+.vien{width: 100%; min-height: 150px; border: 1px solid #511A00; border-radius: 10px; padding: 10px; text-align: center; margin-top: 30px}
+.bo-goc{border-radius: 10px}
+.tour{font-size: 20px; color: darkred; font-weight: 600}
+.gia{color: #666666; font-weight: 600}
+
+.w-40{width:40%; padding: 15px; float: left}
+.w-60{width:60%; padding:15px; float: left}
+.text-xanh{color:#1848FF}
+.vien-xam{width:100%; min-height:300px; border:1px solid #B9B9B9; border-radius: 5px; padding: 10px; margin-bottom:15px}

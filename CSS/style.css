@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";font-size: 16px; color: #666666; margin: 0
+}
+
+header{
+	width: 100%;height: 60px;background-color:#ED852D ;border-bottom: 1px solid darkred
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; text-transform: uppercase; color: white;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+/*phan slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #FFA83A
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #8B0000
+}
+aside ul li a{
+	padding: 10px;display: block;text-decoration: none;color: #666666;text-transform: capitalize
+}
+aside ul li a:hover{
+	background-color: darkred;color: white
+}
+.sp{
+	font-size: 18px;font-weight: bold; color: #511A00
+}
+.text{
+	color: #1D0900
+}
+.text-den{
+	color: darkred
+}
+footer{
+	width: 100%;min-height: 300px;background-color: #FFA83A
+}
+footer a{
+	color: #1D0900
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	min-height: 300px;background-color: #ED852D;text-align:center
+		
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	display: block;padding: 10px;text-decoration: none
+}
+footer ul li a:hover{
+	color: white
+}
+

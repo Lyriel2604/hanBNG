@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+main{
+	width: 100%; min-height: 500px
+}
+.gach-chan{
+	border-bottom: 3px solid #8B0000
+}
+.tieu-de{
+	font-size: 30px
+}
+.vien{
+	width: 100%; min-height: 300px; border: 1px solid #A40000; padding: 10px; position: relative; overflow: hidden
+}
+.text-do{
+	color: darkred
+}
+.icon{
+	width: 80%; height: 40px; position: absolute; left: 10%; display: flex; justify-content: space-around; top: -15%; transition: all 1s
+}
+.icon a{
+	width: 40px; height: 40px; background-color: darkred; color: white; border-radius: 50px; display: flex; justify-content: center; align-items: center; text-decoration: none;
+}
+.vien:hover .icon{
+	top: 40%
+}
+#feature{
+	width: 100%; min-height: 700px; background-image: url("../images/banner/cam (3).jpg"); background-repeat: no-repeat; background-size: cover;background-position: bottom center
+}
+.pt-30{
+	padding-top: 30px
+}
+.vien-xam{
+	width: 100%; min-height: 200px; border: 3px solid #FFFFFF; padding: 20px; display: flex; flex-direction: column;justify-content: center; align-items: center
+}
+.td{
+	font-size: 25px
+}
+#feature a{
+	text-decoration: none; color: white
+}
+#feature a:hover{
+	color: white
+}
+.text-trang{
+	color: white;
+	font-weight: bold
+}
